@@ -2,8 +2,6 @@ import re
 
 class EmailExtractor:
 
-
-
     def __init__(self, email):
         self.email = email
         self.regex = "(?P<name>^[a-z]+)\.(?P<surname>[a-z]+)([0-9]+)?@(?P<student>student)?(\.)?wat.edu.pl"
